@@ -3,6 +3,9 @@
 **[AISTATS 2025] This repository contains the official implementation of our paper "LMEraser: Large Model Unlearning via Adaptive Prompt Tuning"**
 *Jie Xu, Zihan Wu, Cong Wang, Xiaohua Jia*
 
+**Accepted at the 28th International Conference on Artificial Intelligence and Statistics (AISTATS 2025)**
+**Mai Khao, Thailand, May 3-5, 2025**
+
 [![arXiv](http://img.shields.io/badge/cs.CV-arXiv%3A2404.11056-B31B1B.svg)](https://arxiv.org/abs/2404.11056)
 
 ## Abstract
@@ -122,3 +125,17 @@ This repository is partially based on [VP](https://github.com/hjbahng/visual_pro
 ## License
 
 This code is released under the MIT License (see LICENSE file for details).
+
+## Citation
+
+If you find this work helpful, please consider citing:
+
+```bibtex
+@inproceedings{xu2025lmeraser,
+  title={LMEraser: Large Model Unlearning through Adaptive Prompt Tuning},
+  author={Xu, Jie and Wu, Zihan and Wang, Cong and Jia, Xiaohua},
+  booktitle={Proceedings of the 28th International Conference on Artificial Intelligence and Statistics (AISTATS)},
+  year={2025},
+  address={Mai Khao, Thailand}
+}
+```
