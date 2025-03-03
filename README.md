@@ -1,5 +1,14 @@
 # LMEraser: Large Model Unlearning through Adaptive Prompt Tuning
 
+**[AISTATS 2025] This repository contains the official implementation of our paper "LMEraser: Large Model Unlearning via Adaptive Prompt Tuning"**
+*Jie Xu, Zihan Wu, Cong Wang, Xiaohua Jia*
+
+[![arXiv](http://img.shields.io/badge/cs.CV-arXiv%3A2404.11056-B31B1B.svg)](https://arxiv.org/abs/2404.11056)
+
+## Abstract
+
+To address the growing demand for privacy protection in machine learning, we propose a novel and efficient machine unlearning approach for **L**arge **M**odels, called **LM**Eraser. Existing unlearning research suffers from entangled training data and complex model architectures, incurring extremely high computational costs for large models. LMEraser takes a divide-and-conquer strategy with a prompt tuning architecture to isolate data influence. The training dataset is partitioned into public and private datasets. Public data are used to train the backbone of the model. Private data are adaptively clustered based on their diversity, and each cluster is used to optimize a prompt separately. This adaptive prompt tuning mechanism reduces unlearning costs and maintains model performance. Experiments demonstrate that LMEraser achieves a 100-fold reduction in unlearning costs without compromising accuracy compared to prior work. Our code is available at: [Source Code](https://github.com/lmeraser/lmeraser).
+
 ## Environment Setup
 
 This code has been tested with Python 3.11.5 and PyTorch 2.1.2 with CUDA 12.1 on Ubuntu 22.04. The required packages are listed in `environment.yaml`.
